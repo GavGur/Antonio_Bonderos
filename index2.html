@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Оплата по карте</title>
+</head>
+<body>
+<h1>Оплата по карте</h1>
+<form action="https://www.paymentgateway.com/process" method="post">
+  <label for="card_number">Номер карты:</label>
+  <input type="text" id="card_number" name="card_number" required><br><br>
+  <label for="expiry_date">Срок действия:</label>
+  <input type="text" id="expiry_date" name="expiry_date" required><br><br>
+  <label for="cvv">CVV код:</label>
+  <input type="text" id="cvv" name="cvv" required><br><br>
+  <input type="submit" value="Оплатить">
+</form>
+<br>
+<a href="file:///C:/Users/ASUS/Desktop/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/index.html"><button>На главную</button></a>
+</body>
+</html>
